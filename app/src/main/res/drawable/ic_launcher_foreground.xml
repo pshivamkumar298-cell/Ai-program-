@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer concentric intelligence rings -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0 1,0 56,0a28,28 0 1,0 -56,0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#4338CA" />
+    <path
+        android:pathData="M54,54m-22,0a22,22 0 1,0 44,0a22,22 0 1,0 -44,0"
+        android:strokeWidth="1.2"
+        android:strokeColor="#6366F1" />
+
+    <!-- Universal 4-point Spark & Diamond Core -->
+    <path
+        android:pathData="M54,26 C54,40 40,54 26,54 C40,54 54,68 54,82 C54,68 68,54 82,54 C68,54 54,40 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="45"
+                android:endX="82"
+                android:endY="82"
+                android:startX="26"
+                android:startY="26"
+                android:type="linear">
+                <item android:color="#38BDF8" android:offset="0.0" />
+                <item android:color="#818CF8" android:offset="0.5" />
+                <item android:color="#C084FC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Secondary diagonal spark -->
+    <path
+        android:pathData="M54,36 C54,46 44,54 34,54 C44,54 54,62 54,72 C54,62 64,54 74,54 C64,54 54,46 54,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="90"
+                android:endX="54"
+                android:endY="72"
+                android:startX="54"
+                android:startY="36"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#E0E7FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bright center core node -->
+    <path
+        android:pathData="M54,54m-4.5,0a4.5,4.5 0 1,0 9,0a4.5,4.5 0 1,0 -9,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- 4 Satellite neural nodes -->
+    <path
+        android:pathData="M54,30m-2.2,0a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M54,78m-2.2,0a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0"
+        android:fillColor="#C084FC" />
+    <path
+        android:pathData="M30,54m-2.2,0a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M78,54m-2.2,0a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0"
+        android:fillColor="#C084FC" />
+</vector>
